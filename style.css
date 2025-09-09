@@ -1,0 +1,55 @@
+/* Set the background color and font for the whole page */
+body {
+  background-color: #1976a3;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Style the profile card container */
+.card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-sizing: border-box;
+}
+
+/* Main heading styles */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #1565c0;
+}
+
+/* Subheading styles */
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #0288d1;
+}
+
+/* Center h3 and everything below it */
+.card h3,
+.card ul {
+  text-align: center;
+}
+.card h3 {
+  color: #222;
+}
+.card ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.card ul li {
+  margin-bottom: 12px;
+}
+
+/* Paragraph styles */
+p {
+  text-align: center;
+  color: #333333;
+  letter-spacing: 0.05em;
+}
